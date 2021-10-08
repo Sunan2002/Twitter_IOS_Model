@@ -23,6 +23,7 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-http://recordit.co/iHdxNQBoIZ
+
+http://g.recordit.co/iHdxNQBoIZ.gif
 
 
