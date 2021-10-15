@@ -102,11 +102,17 @@
                                                 <action selector="favoriteTweet:" destination="MKn-xP-FAh" eventType="touchUpInside" id="s1M-Fj-PPn"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdH-y3-28q" userLabel="retweetButton">
-                                            <rect key="frame" x="233" y="95" width="54" height="44"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdH-y3-28q" userLabel="retweetButton">
+                                            <rect key="frame" x="250" y="95" width="55" height="44"/>
                                             <constraints>
+                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="D82-W8-Jn1"/>
                                                 <constraint firstAttribute="width" constant="54" id="Qz4-4v-nDN"/>
+                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="SxY-ki-EEO"/>
+                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="Zmr-l9-EA4"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="54" id="aId-um-Z5l"/>
+                                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="jFh-MV-Qhz"/>
                                                 <constraint firstAttribute="height" constant="44" id="vO9-zG-nx9"/>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="ymg-3I-ptE"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" image="retweet-icon"/>
@@ -116,15 +122,24 @@
                                         </button>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="LdH-y3-28q" firstAttribute="bottom" secondItem="4Jy-bS-sXC" secondAttribute="bottomMargin" id="24M-TR-Yvb"/>
                                         <constraint firstItem="qUG-kr-elA" firstAttribute="top" secondItem="4Jy-bS-sXC" secondAttribute="top" id="5r8-Lb-hsd"/>
+                                        <constraint firstItem="LdH-y3-28q" firstAttribute="top" secondItem="OXj-Ve-NN1" secondAttribute="bottom" constant="20" id="7Gg-nb-m1i"/>
+                                        <constraint firstItem="zLL-Zf-L9y" firstAttribute="leading" secondItem="LdH-y3-28q" secondAttribute="trailing" constant="43" id="8nz-EE-vbw"/>
                                         <constraint firstAttribute="trailing" secondItem="OXj-Ve-NN1" secondAttribute="trailing" id="An2-Ga-Seo"/>
+                                        <constraint firstItem="LdH-y3-28q" firstAttribute="bottom" secondItem="4Jy-bS-sXC" secondAttribute="bottomMargin" id="H8R-t7-Xk2"/>
+                                        <constraint firstItem="LdH-y3-28q" firstAttribute="leading" secondItem="4Jy-bS-sXC" secondAttribute="leadingMargin" constant="261" id="Ha5-b3-w0n"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="zLL-Zf-L9y" secondAttribute="bottom" constant="10" id="LFM-4s-a0y"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="LdH-y3-28q" secondAttribute="trailing" constant="28" id="TCW-9o-dRu"/>
                                         <constraint firstItem="zLL-Zf-L9y" firstAttribute="leading" secondItem="LdH-y3-28q" secondAttribute="trailing" constant="10" id="UYO-GB-7Ui"/>
                                         <constraint firstItem="OXj-Ve-NN1" firstAttribute="top" secondItem="qUG-kr-elA" secondAttribute="bottom" constant="4" id="W6d-Fz-Bgu"/>
                                         <constraint firstItem="JHs-PC-636" firstAttribute="top" secondItem="4Jy-bS-sXC" secondAttribute="top" id="aGp-lo-3Ox"/>
+                                        <constraint firstItem="LdH-y3-28q" firstAttribute="top" secondItem="OXj-Ve-NN1" secondAttribute="bottom" constant="20" id="aKm-9t-Fw8"/>
+                                        <constraint firstItem="LdH-y3-28q" firstAttribute="leading" secondItem="4Jy-bS-sXC" secondAttribute="leadingMargin" constant="234" id="h05-hp-q93"/>
                                         <constraint firstItem="OXj-Ve-NN1" firstAttribute="leading" secondItem="JHs-PC-636" secondAttribute="trailing" constant="8" id="lmz-8r-h1M"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="zLL-Zf-L9y" secondAttribute="trailing" constant="10" id="uEr-xr-npm"/>
                                         <constraint firstItem="qUG-kr-elA" firstAttribute="leading" secondItem="JHs-PC-636" secondAttribute="trailing" constant="8" id="uOH-PZ-Dcn"/>
+                                        <constraint firstItem="zLL-Zf-L9y" firstAttribute="leading" secondItem="LdH-y3-28q" secondAttribute="trailing" constant="-10" id="x1Z-PI-vV4"/>
                                         <constraint firstItem="JHs-PC-636" firstAttribute="leading" secondItem="4Jy-bS-sXC" secondAttribute="leading" id="ymR-Tb-iBL"/>
                                         <constraint firstItem="zLL-Zf-L9y" firstAttribute="top" secondItem="OXj-Ve-NN1" secondAttribute="bottom" constant="10" id="zHp-4r-fzv"/>
                                     </constraints>
