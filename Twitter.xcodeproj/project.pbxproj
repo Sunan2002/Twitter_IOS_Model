@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37D29B8621F90E3400984A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D29B8521F90E3400984A88 /* Assets.xcassets */; };
+		481883232718DB1E00263B11 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481883222718DB1E00263B11 /* TweetViewController.swift */; };
 		4847D361270FD82E0071A0D2 /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847D360270FD82E0071A0D2 /* TweetCellTableViewCell.swift */; };
 		48629E06270FA92600F2222B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48629E05270FA92600F2222B /* LoginViewController.swift */; };
 		48629E08270FAF4F00F2222B /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48629E07270FAF4F00F2222B /* HomeTableViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		37D29B8521F90E3400984A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		481883222718DB1E00263B11 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		4847D360270FD82E0071A0D2 /* TweetCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellTableViewCell.swift; sourceTree = "<group>"; };
 		48629E05270FA92600F2222B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		48629E07270FAF4F00F2222B /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */,
 				6EBCF52921DF07FC00451C03 /* Main.storyboard */,
+				481883222718DB1E00263B11 /* TweetViewController.swift */,
 				6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */,
 				6EBCF52521DF07FC00451C03 /* AppDelegate.swift */,
 				37D29B8521F90E3400984A88 /* Assets.xcassets */,
@@ -211,6 +214,7 @@
 			files = (
 				48629E08270FAF4F00F2222B /* HomeTableViewController.swift in Sources */,
 				48629E06270FA92600F2222B /* LoginViewController.swift in Sources */,
+				481883232718DB1E00263B11 /* TweetViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
 				4847D361270FD82E0071A0D2 /* TweetCellTableViewCell.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
